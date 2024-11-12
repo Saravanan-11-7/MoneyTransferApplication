@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SelectionDropDownTableCell" rowHeight="143" id="KGk-i7-Jjw" customClass="SelectionDropDownTableCell" customModule="MoneyTransferApp">
+            <rect key="frame" x="0.0" y="0.0" width="494" height="143"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="494" height="143"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fbt-W4-mvD">
+                        <rect key="frame" x="16.000000000000004" y="16" width="43.333333333333343" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="gQA-JF-gKI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ngy-bV-7qS">
+                        <rect key="frame" x="16" y="53" width="462" height="50"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NdX-jE-5cP">
+                                <rect key="frame" x="0.0" y="0.0" width="406" height="39"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dropDownImage" translatesAutoresizingMaskIntoConstraints="NO" id="tid-UE-kJh">
+                                <rect key="frame" x="421" y="12.666666666666671" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Kzi-04-DY9"/>
+                                    <constraint firstAttribute="width" constant="25" id="ecA-oI-TIH"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87091457197966216" green="1" blue="0.88221917258791638" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="tid-UE-kJh" firstAttribute="centerY" secondItem="ngy-bV-7qS" secondAttribute="centerY" id="4e0-Uy-RA3"/>
+                            <constraint firstAttribute="height" constant="50" id="KLE-za-7nc"/>
+                            <constraint firstItem="tid-UE-kJh" firstAttribute="leading" secondItem="NdX-jE-5cP" secondAttribute="trailing" constant="15" id="Msu-V6-r5f"/>
+                            <constraint firstItem="NdX-jE-5cP" firstAttribute="leading" secondItem="ngy-bV-7qS" secondAttribute="leading" id="ONG-s2-gfO"/>
+                            <constraint firstItem="NdX-jE-5cP" firstAttribute="top" secondItem="ngy-bV-7qS" secondAttribute="top" id="SzQ-eR-wUa"/>
+                            <constraint firstAttribute="bottom" secondItem="NdX-jE-5cP" secondAttribute="bottom" constant="11" id="l6Y-gF-ONS"/>
+                            <constraint firstAttribute="trailing" secondItem="tid-UE-kJh" secondAttribute="trailing" constant="16" id="qqF-3v-JBP"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ngy-bV-7qS" secondAttribute="bottom" constant="16" id="6xR-6V-HnG"/>
+                    <constraint firstItem="Fbt-W4-mvD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="O0a-RO-IUo"/>
+                    <constraint firstItem="ngy-bV-7qS" firstAttribute="top" secondItem="Fbt-W4-mvD" secondAttribute="bottom" constant="16" id="YQl-Or-gtg"/>
+                    <constraint firstAttribute="trailing" secondItem="ngy-bV-7qS" secondAttribute="trailing" constant="16" id="eew-Br-Is1"/>
+                    <constraint firstItem="ngy-bV-7qS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="pQg-cw-rcz"/>
+                    <constraint firstItem="Fbt-W4-mvD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="zZ0-YA-rsi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="D5X-dY-Jdn"/>
+            <color key="backgroundColor" systemColor="tableBackgroundColor"/>
+            <connections>
+                <outlet property="cellTitleLabel" destination="Fbt-W4-mvD" id="oac-i2-sUh"/>
+                <outlet property="dropDownImage" destination="tid-UE-kJh" id="e7J-l3-UhV"/>
+                <outlet property="dropDownView" destination="ngy-bV-7qS" id="dSH-Ve-G4a"/>
+                <outlet property="selectionTextField" destination="NdX-jE-5cP" id="okb-dz-LVW"/>
+            </connections>
+            <point key="canvasLocation" x="271.75572519083971" y="54.577464788732399"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dropDownImage" width="20" height="20"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tableBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

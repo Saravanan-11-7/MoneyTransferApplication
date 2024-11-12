@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4935E5972CE2265700BE7AF0 /* MoneyTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935E5962CE2265700BE7AF0 /* MoneyTransferViewController.swift */; };
+		4935E5992CE2267000BE7AF0 /* MoneyTransferViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4935E5982CE2267000BE7AF0 /* MoneyTransferViewController.storyboard */; };
+		4935E59B2CE2268200BE7AF0 /* MoneyTransferViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935E59A2CE2268200BE7AF0 /* MoneyTransferViewModel.swift */; };
+		4935E5A12CE226EC00BE7AF0 /* CurrencyStub.json in Resources */ = {isa = PBXBuildFile; fileRef = 4935E5A02CE226EC00BE7AF0 /* CurrencyStub.json */; };
+		4935E5A32CE2271100BE7AF0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935E5A22CE2271100BE7AF0 /* Model.swift */; };
+		4935E5A52CE2276F00BE7AF0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935E5A42CE2276F00BE7AF0 /* Service.swift */; };
+		4935E5A62CE2279000BE7AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4946E9A42CE1E04A0018F67A /* Main.storyboard */; };
+		4935E5A82CE2297F00BE7AF0 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935E5A72CE2297F00BE7AF0 /* MainViewModel.swift */; };
+		4935E5AE2CE2328A00BE7AF0 /* SelectionDropDownTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935E5AC2CE2328A00BE7AF0 /* SelectionDropDownTableCell.swift */; };
+		4935E5AF2CE2328A00BE7AF0 /* SelectionDropDownTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4935E5AD2CE2328A00BE7AF0 /* SelectionDropDownTableCell.xib */; };
+		4935E5B22CE232A400BE7AF0 /* ConverterTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935E5B02CE232A400BE7AF0 /* ConverterTableCell.swift */; };
+		4935E5B32CE232A400BE7AF0 /* ConverterTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4935E5B12CE232A400BE7AF0 /* ConverterTableCell.xib */; };
+		4935E5BB2CE28E6100BE7AF0 /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935E5BA2CE28E6100BE7AF0 /* CountryDetailViewController.swift */; };
+		4935E5BD2CE28E7800BE7AF0 /* CountryDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4935E5BC2CE28E7800BE7AF0 /* CountryDetailViewController.storyboard */; };
+		4935E5BF2CE28EAD00BE7AF0 /* CountryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935E5BE2CE28EAD00BE7AF0 /* CountryDetailViewModel.swift */; };
+		4935E5C22CE2EAFD00BE7AF0 /* PopularCountryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935E5C02CE2EAFD00BE7AF0 /* PopularCountryCollectionViewCell.swift */; };
+		4935E5C32CE2EAFD00BE7AF0 /* PopularCountryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4935E5C12CE2EAFD00BE7AF0 /* PopularCountryCollectionViewCell.xib */; };
+		4935E5C62CE2EE1000BE7AF0 /* AllCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935E5C42CE2EE0F00BE7AF0 /* AllCountryTableViewCell.swift */; };
+		4935E5C72CE2EE1000BE7AF0 /* AllCountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4935E5C52CE2EE0F00BE7AF0 /* AllCountryTableViewCell.xib */; };
+		4935E5CA2CE337E200BE7AF0 /* DeliveryMethodsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935E5C92CE337E200BE7AF0 /* DeliveryMethodsDetailViewController.swift */; };
+		4935E5CC2CE337EC00BE7AF0 /* DeliveryMethodsDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4935E5CB2CE337EC00BE7AF0 /* DeliveryMethodsDetailViewController.storyboard */; };
+		4935E5D22CE33A2100BE7AF0 /* DeliveryDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935E5D02CE33A2100BE7AF0 /* DeliveryDetailTableViewCell.swift */; };
+		4935E5D32CE33A2100BE7AF0 /* DeliveryDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4935E5D12CE33A2100BE7AF0 /* DeliveryDetailTableViewCell.xib */; };
+		4935E5D42CE38C2900BE7AF0 /* DeliveryMethodsDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935E5CD2CE338EB00BE7AF0 /* DeliveryMethodsDetailViewModel.swift */; };
 		4946E99F2CE1E04A0018F67A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946E99E2CE1E04A0018F67A /* AppDelegate.swift */; };
 		4946E9A12CE1E04A0018F67A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946E9A02CE1E04A0018F67A /* SceneDelegate.swift */; };
 		4946E9A32CE1E04A0018F67A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946E9A22CE1E04A0018F67A /* ViewController.swift */; };
@@ -36,6 +60,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4935E5962CE2265700BE7AF0 /* MoneyTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTransferViewController.swift; sourceTree = "<group>"; };
+		4935E5982CE2267000BE7AF0 /* MoneyTransferViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MoneyTransferViewController.storyboard; sourceTree = "<group>"; };
+		4935E59A2CE2268200BE7AF0 /* MoneyTransferViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTransferViewModel.swift; sourceTree = "<group>"; };
+		4935E5A02CE226EC00BE7AF0 /* CurrencyStub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CurrencyStub.json; sourceTree = "<group>"; };
+		4935E5A22CE2271100BE7AF0 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4935E5A42CE2276F00BE7AF0 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		4935E5A72CE2297F00BE7AF0 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		4935E5AC2CE2328A00BE7AF0 /* SelectionDropDownTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionDropDownTableCell.swift; sourceTree = "<group>"; };
+		4935E5AD2CE2328A00BE7AF0 /* SelectionDropDownTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectionDropDownTableCell.xib; sourceTree = "<group>"; };
+		4935E5B02CE232A400BE7AF0 /* ConverterTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTableCell.swift; sourceTree = "<group>"; };
+		4935E5B12CE232A400BE7AF0 /* ConverterTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConverterTableCell.xib; sourceTree = "<group>"; };
+		4935E5BA2CE28E6100BE7AF0 /* CountryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
+		4935E5BC2CE28E7800BE7AF0 /* CountryDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CountryDetailViewController.storyboard; sourceTree = "<group>"; };
+		4935E5BE2CE28EAD00BE7AF0 /* CountryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewModel.swift; sourceTree = "<group>"; };
+		4935E5C02CE2EAFD00BE7AF0 /* PopularCountryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCountryCollectionViewCell.swift; sourceTree = "<group>"; };
+		4935E5C12CE2EAFD00BE7AF0 /* PopularCountryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularCountryCollectionViewCell.xib; sourceTree = "<group>"; };
+		4935E5C42CE2EE0F00BE7AF0 /* AllCountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCountryTableViewCell.swift; sourceTree = "<group>"; };
+		4935E5C52CE2EE0F00BE7AF0 /* AllCountryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllCountryTableViewCell.xib; sourceTree = "<group>"; };
+		4935E5C92CE337E200BE7AF0 /* DeliveryMethodsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryMethodsDetailViewController.swift; sourceTree = "<group>"; };
+		4935E5CB2CE337EC00BE7AF0 /* DeliveryMethodsDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DeliveryMethodsDetailViewController.storyboard; sourceTree = "<group>"; };
+		4935E5CD2CE338EB00BE7AF0 /* DeliveryMethodsDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryMethodsDetailViewModel.swift; sourceTree = "<group>"; };
+		4935E5D02CE33A2100BE7AF0 /* DeliveryDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDetailTableViewCell.swift; sourceTree = "<group>"; };
+		4935E5D12CE33A2100BE7AF0 /* DeliveryDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeliveryDetailTableViewCell.xib; sourceTree = "<group>"; };
 		4946E99B2CE1E04A0018F67A /* MoneyTransferApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTransferApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4946E99E2CE1E04A0018F67A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4946E9A02CE1E04A0018F67A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +123,121 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4935E5912CE2260E00BE7AF0 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4946E99E2CE1E04A0018F67A /* AppDelegate.swift */,
+				4946E9A02CE1E04A0018F67A /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		4935E5922CE2262100BE7AF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4935E5A22CE2271100BE7AF0 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4935E5932CE2262800BE7AF0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4935E5A42CE2276F00BE7AF0 /* Service.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4935E5942CE2263500BE7AF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4935E5B92CE28E3100BE7AF0 /* PaymentMethodDetailVC */,
+				4935E5B82CE28E1A00BE7AF0 /* CountryDetailVC */,
+				4935E5952CE2263E00BE7AF0 /* MoneyTransferVC */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4935E5952CE2263E00BE7AF0 /* MoneyTransferVC */ = {
+			isa = PBXGroup;
+			children = (
+				4935E5A92CE2323600BE7AF0 /* Cells */,
+				4935E5962CE2265700BE7AF0 /* MoneyTransferViewController.swift */,
+				4935E5982CE2267000BE7AF0 /* MoneyTransferViewController.storyboard */,
+				4935E59A2CE2268200BE7AF0 /* MoneyTransferViewModel.swift */,
+			);
+			path = MoneyTransferVC;
+			sourceTree = "<group>";
+		};
+		4935E5A92CE2323600BE7AF0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4935E5AB2CE2325200BE7AF0 /* ConverterCell */,
+				4935E5AA2CE2324200BE7AF0 /* SelectionCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4935E5AA2CE2324200BE7AF0 /* SelectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				4935E5AC2CE2328A00BE7AF0 /* SelectionDropDownTableCell.swift */,
+				4935E5AD2CE2328A00BE7AF0 /* SelectionDropDownTableCell.xib */,
+			);
+			path = SelectionCell;
+			sourceTree = "<group>";
+		};
+		4935E5AB2CE2325200BE7AF0 /* ConverterCell */ = {
+			isa = PBXGroup;
+			children = (
+				4935E5B02CE232A400BE7AF0 /* ConverterTableCell.swift */,
+				4935E5B12CE232A400BE7AF0 /* ConverterTableCell.xib */,
+			);
+			path = ConverterCell;
+			sourceTree = "<group>";
+		};
+		4935E5B82CE28E1A00BE7AF0 /* CountryDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				4935E5C82CE3377600BE7AF0 /* Cells */,
+				4935E5BC2CE28E7800BE7AF0 /* CountryDetailViewController.storyboard */,
+				4935E5BA2CE28E6100BE7AF0 /* CountryDetailViewController.swift */,
+				4935E5BE2CE28EAD00BE7AF0 /* CountryDetailViewModel.swift */,
+			);
+			path = CountryDetailVC;
+			sourceTree = "<group>";
+		};
+		4935E5B92CE28E3100BE7AF0 /* PaymentMethodDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				4935E5CF2CE33A0100BE7AF0 /* Cell */,
+				4935E5C92CE337E200BE7AF0 /* DeliveryMethodsDetailViewController.swift */,
+				4935E5CB2CE337EC00BE7AF0 /* DeliveryMethodsDetailViewController.storyboard */,
+				4935E5CD2CE338EB00BE7AF0 /* DeliveryMethodsDetailViewModel.swift */,
+			);
+			path = PaymentMethodDetailVC;
+			sourceTree = "<group>";
+		};
+		4935E5C82CE3377600BE7AF0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4935E5C12CE2EAFD00BE7AF0 /* PopularCountryCollectionViewCell.xib */,
+				4935E5C02CE2EAFD00BE7AF0 /* PopularCountryCollectionViewCell.swift */,
+				4935E5C52CE2EE0F00BE7AF0 /* AllCountryTableViewCell.xib */,
+				4935E5C42CE2EE0F00BE7AF0 /* AllCountryTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4935E5CF2CE33A0100BE7AF0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4935E5D02CE33A2100BE7AF0 /* DeliveryDetailTableViewCell.swift */,
+				4935E5D12CE33A2100BE7AF0 /* DeliveryDetailTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		4946E9922CE1E0490018F67A = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +261,17 @@
 		4946E99D2CE1E04A0018F67A /* MoneyTransferApp */ = {
 			isa = PBXGroup;
 			children = (
-				4946E99E2CE1E04A0018F67A /* AppDelegate.swift */,
-				4946E9A02CE1E04A0018F67A /* SceneDelegate.swift */,
+				4935E5912CE2260E00BE7AF0 /* Delegates */,
+				4935E5922CE2262100BE7AF0 /* Model */,
+				4935E5932CE2262800BE7AF0 /* Services */,
+				4935E5942CE2263500BE7AF0 /* Views */,
+				4935E5A72CE2297F00BE7AF0 /* MainViewModel.swift */,
 				4946E9A22CE1E04A0018F67A /* ViewController.swift */,
 				4946E9A42CE1E04A0018F67A /* Main.storyboard */,
 				4946E9A72CE1E04C0018F67A /* Assets.xcassets */,
 				4946E9A92CE1E04C0018F67A /* LaunchScreen.storyboard */,
 				4946E9AC2CE1E04C0018F67A /* Info.plist */,
+				4935E5A02CE226EC00BE7AF0 /* CurrencyStub.json */,
 			);
 			path = MoneyTransferApp;
 			sourceTree = "<group>";
@@ -231,9 +397,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4935E5A12CE226EC00BE7AF0 /* CurrencyStub.json in Resources */,
+				4935E5C32CE2EAFD00BE7AF0 /* PopularCountryCollectionViewCell.xib in Resources */,
+				4935E5D32CE33A2100BE7AF0 /* DeliveryDetailTableViewCell.xib in Resources */,
+				4935E5BD2CE28E7800BE7AF0 /* CountryDetailViewController.storyboard in Resources */,
 				4946E9A82CE1E04C0018F67A /* Assets.xcassets in Resources */,
+				4935E5CC2CE337EC00BE7AF0 /* DeliveryMethodsDetailViewController.storyboard in Resources */,
+				4935E5AF2CE2328A00BE7AF0 /* SelectionDropDownTableCell.xib in Resources */,
+				4935E5992CE2267000BE7AF0 /* MoneyTransferViewController.storyboard in Resources */,
+				4935E5A62CE2279000BE7AF0 /* Main.storyboard in Resources */,
 				4946E9AB2CE1E04C0018F67A /* Base in Resources */,
 				4946E9A62CE1E04A0018F67A /* Base in Resources */,
+				4935E5B32CE232A400BE7AF0 /* ConverterTableCell.xib in Resources */,
+				4935E5C72CE2EE1000BE7AF0 /* AllCountryTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +434,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4935E5A32CE2271100BE7AF0 /* Model.swift in Sources */,
+				4935E5A52CE2276F00BE7AF0 /* Service.swift in Sources */,
+				4935E5972CE2265700BE7AF0 /* MoneyTransferViewController.swift in Sources */,
+				4935E5D22CE33A2100BE7AF0 /* DeliveryDetailTableViewCell.swift in Sources */,
+				4935E59B2CE2268200BE7AF0 /* MoneyTransferViewModel.swift in Sources */,
 				4946E9A32CE1E04A0018F67A /* ViewController.swift in Sources */,
 				4946E99F2CE1E04A0018F67A /* AppDelegate.swift in Sources */,
+				4935E5BF2CE28EAD00BE7AF0 /* CountryDetailViewModel.swift in Sources */,
 				4946E9A12CE1E04A0018F67A /* SceneDelegate.swift in Sources */,
+				4935E5C62CE2EE1000BE7AF0 /* AllCountryTableViewCell.swift in Sources */,
+				4935E5D42CE38C2900BE7AF0 /* DeliveryMethodsDetailViewModel.swift in Sources */,
+				4935E5C22CE2EAFD00BE7AF0 /* PopularCountryCollectionViewCell.swift in Sources */,
+				4935E5B22CE232A400BE7AF0 /* ConverterTableCell.swift in Sources */,
+				4935E5CA2CE337E200BE7AF0 /* DeliveryMethodsDetailViewController.swift in Sources */,
+				4935E5BB2CE28E6100BE7AF0 /* CountryDetailViewController.swift in Sources */,
+				4935E5AE2CE2328A00BE7AF0 /* SelectionDropDownTableCell.swift in Sources */,
+				4935E5A82CE2297F00BE7AF0 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
